@@ -14,7 +14,7 @@ img {
 
 .logo {
     max-width: 300px;
-    align-items: left;
+    
 }
 nav#main-nav a.active {
     background-color:hsl(36, 66%, 67%);
@@ -25,7 +25,6 @@ nav#main-nav a.active {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: left;
     padding: 10px 20px;
 
 }
@@ -49,11 +48,9 @@ nav#main-nav a.active {
 .nav-button a.active {
     font-weight: bold;
     background-color: chocolate;
-    align-items: left;
 }
 
 .nav-button {
-    align-self: left;
     font-size: 24px;
     padding: 5px;
     min-width: 32px;
@@ -110,7 +107,7 @@ nav#main-nav a.active {
 }
 
 .banner h1 {
-    color: hsla(0, 0%, 11%, 100%);
+    color: rgb(0, 0, 0);
     background-color: hsla(0, 0%, 11%), 100%;
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
