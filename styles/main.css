@@ -1,11 +1,8 @@
-body {
+body { 
     margin: 0px;
     background-color: hsla(24, 56%, 35%, 1);
     color: hsl(0, 0%, 11%);
     font-family: "Rethink Sans", sans-serif;
-    
-
-    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 img {
@@ -94,7 +91,7 @@ nav#main-nav a.active {
     background-color:hsl(43, 61%, 69%);
     background-image: url("../images/shoes/converse.jpeg");
 }
-/* carousel */
+
 .slide {
     min-width: 100%;
     min-height: 50vh;
@@ -174,8 +171,6 @@ nav#main-nav a.active {
         margin: 2em auto;
         gap: 20px;
 }
-/* contact form */
-
 #contact {
     display: flex;
     flex-direction: column;
@@ -214,7 +209,6 @@ nav#main-nav a.active {
 #resetbutton {
     background-color: #666666;
 }
-/* about page */
 .about-page {
     min-height: 100vh;
     display: grid;
