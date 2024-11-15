@@ -1,0 +1,225 @@
+body {
+    margin: 0px;
+    background-color: hsla(24, 56%, 35%, 1);
+    color: hsl(0, 0%, 11%);
+    font-family: "Rethink Sans", sans-serif;
+    
+
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    max-width: 300px;
+    align-items: left;
+}
+nav#main-nav a.active {
+    background-color:hsl(36, 66%, 67%);
+    font-weight: bold;
+}
+.main-header {
+    background-color: hsla(24, 56%, 35%, 1);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px;
+
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: hsl(0, 0%, 11%);
+    padding: 15px;
+
+}
+.navigation a:hover {
+    color: hsl(0, 0%, 60%);
+    background-color: hsl(36, 66%, 67%);
+    font-weight: bold;
+}
+.nav-button a.active {
+    font-weight: bold;
+    background-color: chocolate;
+    align-items: left;
+}
+
+.nav-button {
+    align-self: left;
+    font-size: 24px;
+    padding: 5px;
+    min-width: 32px;
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
+    font-weight: bold;
+}
+
+.nav-button:focus {
+    background-color: #202020;
+    color: white;
+}
+
+.banner {
+    background-image: url("../images/omgshoes.jpeg");
+    background-position: center;
+    background-size: cover;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+}
+.slide:nth-child(1) {
+    background-color:hsl(43, 82%, 78%);
+    background-image: url("../images/shoes/brownleatherbalance.webp");    
+}
+
+.slide:nth-child(2) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/brownleatherglasseswatch.webp");
+}
+.slide:nth-child(3) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/brownwrinkles.webp");
+}
+.slide:nth-child(4) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/shoesshirt.jpeg");
+}
+.slide:nth-child(5) {
+    background-color:hsl(43, 61%, 69%);
+    background-image: url("../images/shoes/converse.jpeg");
+}
+/* carousel */
+.slide {
+    min-width: 100%;
+    min-height: 50vh;
+    display: grid;
+    place-items: center;
+    font-size: 4em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner h1 {
+    color: hsla(0, 0%, 11%, 100%);
+    background-color: hsla(0, 0%, 11%), 100%;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 2em auto;
+    gap: 20px;
+}
+.card-image {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    object-position: center;
+}
+.card {
+    border: 1px solid #b4b4b4;
+
+}
+.card-content {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color:hsl(36, 66%, 67%)
+}
+.card-button {
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 0.5em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    max-width: 100px;
+    align-self: center;
+    max-width: 100%;
+}
+.main-footer {
+    background-color: hsl(0, 0%, 11%);
+    padding: 1em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-footer a{
+    color: hsl(27, 51%, 36%);
+    text-decoration: none;
+}
+
+.main-footer a:hover {
+    color:white;
+}
+
+.social-nav{
+    font-size: 1.5em;
+    }
+
+.contact-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1200px;
+        margin: 2em auto;
+        gap: 20px;
+}
+/* contact form */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+#contact label {
+    font-weight: 450;
+}
+#contact input {
+    margin-bottom: 0.5em;
+    border:1px solid #666666;
+    padding: 0.5em;
+}
+#contact input:focus, #contact textarea:focus {
+    outline: solid 0.5px ;
+}
+.form-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.form-buttons button {
+    padding: 0.5em;
+    color: #cccccc;
+    min-width: 10ch;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+#submitbutton {
+    background-color: #fcfcfc;
+    color:hsl(0, 0%, 11%)
+}
+
+#resetbutton {
+    background-color: #666666;
+}
+/* about page */
+.about-page {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
