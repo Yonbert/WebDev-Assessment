@@ -214,3 +214,6 @@ nav#main-nav a.active {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+.search {
+    align-self: center;
+}
